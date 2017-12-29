@@ -1,8 +1,8 @@
 {
-  "name": "webxbw2008/gii",
-  "description": "PHPExcel - OpenXML - Read, Create and Write Spreadsheet documents in PHP - Spreadsheet engine",
-  "keywords": ["PHP","Excel","OpenXML","xlsx","xls","spreadsheet"],
-  "homepage": "https://github.com/webxbw2008/thinkphp_gii",
+  "name": "webxbw2008/miikou",
+  "description": "miikou",
+  "keywords": ["miikou"],
+  "homepage": "https://github.com/webxbw2008/miikou",
   "type": "library",
   "license": "LGPL",
   "authors": [
