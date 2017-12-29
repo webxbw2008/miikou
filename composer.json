@@ -1,12 +1,24 @@
 {
-  "name"  : "webxbw2008/gii",
-  "type"  : "project",
-  "homepage": "http://www.workerman.net",
-  "license" : "MIT",
+  "name": "webxbw2008/gii",
+  "description": "PHPExcel - OpenXML - Read, Create and Write Spreadsheet documents in PHP - Spreadsheet engine",
+  "keywords": ["PHP","Excel","OpenXML","xlsx","xls","spreadsheet"],
+  "homepage": "https://github.com/webxbw2008/thinkphp_gii",
+  "type": "library",
+  "license": "LGPL",
+  "authors": [
+    {
+      "name": "webxbw2008",
+      "homepage": "https://www.chaunbudsp.com"
+    }
+  ],
   "require": {
-    "workerman/workerman" : ">=3.3.0"
+    "php": ">=5.2.0",
+    "ext-xml": "*",
+    "ext-xmlwriter": "*"
   },
   "autoload": {
-    "psr-4": {"Channel\\": "./src"}
+    "psr-0": {
+      "PHPExcel": "Classes/"
+    }
   }
 }
