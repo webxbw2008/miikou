@@ -15,10 +15,5 @@
     "php": ">=5.2.0",
     "ext-xml": "*",
     "ext-xmlwriter": "*"
-  },
-  "autoload": {
-    "psr-0": {
-      "PHPExcel": "Classes/"
-    }
   }
 }
