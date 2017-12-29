@@ -14,9 +14,9 @@
  *
  */
 
-namespace webxbw\tool;
+namespace miikou\tool;
 
-class XbwTool{
+class Tool{
     public function getIp($type = 0){
         $type       =  $type ? 1 : 0;
         static $ip  =   NULL;
