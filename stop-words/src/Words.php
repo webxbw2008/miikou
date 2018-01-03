@@ -14,7 +14,7 @@ class Words
      */
     public function __construct()
     {
-        $words =explode("\r\n",file_get_contents('base_dic_full.txt'));
+        $words =explode("\r\n",file_get_contents('dict.txt'));
         $this->stop_words = $words;
     }
 
