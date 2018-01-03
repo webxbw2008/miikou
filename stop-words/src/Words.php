@@ -10,9 +10,7 @@ class Words
     protected $stop_words = array();
 
     /**
-     * Create a new Words Instance
-     *
-     * @param mixed Optional words to set
+     * Words constructor.
      */
     public function __construct()
     {
