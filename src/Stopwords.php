@@ -1,11 +1,11 @@
 <?php
-namespace miikou\src\stopwords;
+namespace miikou\stopwords;
 
 /**
  * Class Words
  * @package miikou\stopwords\src
  */
-class Words
+class Stopwords
 {
     protected $stop_words = array();
 
