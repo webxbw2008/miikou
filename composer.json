@@ -3,7 +3,7 @@
   "description": "miikou",
   "keywords": ["miikou"],
   "homepage": "https://github.com/webxbw2008/miikou",
-  "type": "library",
+  "type": "project",
   "license": "LGPL",
   "authors": [
     {
@@ -12,9 +12,12 @@
     }
   ],
   "require": {
-    "php": ">=5.2.0",
-    "ext-xml": "*",
-    "ext-xmlwriter": "*",
-    "phpunit/phpunit": "^6.5"
+    "phpunit/phpunit": "5.6.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "miikou\\": "src/",
+      "Test\\": "test/"
+    }
   }
 }

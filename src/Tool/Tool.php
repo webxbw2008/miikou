@@ -7,7 +7,7 @@
 // | Author: miikou <bangwenxu@gmail.com> 2017-12-29 15:06 
 // +----------------------------------------------------------------------
 
-namespace miikou\tool;
+namespace miikou\src\tool;
 
 
 /**

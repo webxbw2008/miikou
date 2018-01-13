@@ -1,5 +1,5 @@
 <?php
-namespace miikou\stopwords\src;
+namespace miikou\src\stopwords;
 
 /**
  * Class Words
