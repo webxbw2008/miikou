@@ -3,7 +3,7 @@
   "description": "miikou",
   "keywords": ["miikou"],
   "homepage": "https://github.com/webxbw2008/miikou",
-  "type": "project",
+  "type": "library",
   "license": "LGPL",
   "authors": [
     {
