@@ -10,5 +10,21 @@
       "name": "webxbw2008",
       "homepage": "https://www.chaunbudsp.com"
     }
-  ]
+  ],
+  "require": {
+    "php": "^5.3.3 || ^7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "miikou\\tool\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "miikou\\tool\\tests\\": "tests/"
+    }
+  }
 }

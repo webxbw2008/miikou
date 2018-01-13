@@ -1,3 +1,0 @@
-
-Warning: file_get_contents(./dict.txt): failed to open stream: No such file or directory in D:\phpStudy\WWW\miikou\stop-words\Words.php on line 17
-string(33) "我今天开着最牛公安上班"
